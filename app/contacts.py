@@ -1,6 +1,7 @@
 from flask import Blueprint, request, render_template, redirect, url_for, flash
 from db import mysql
 
+
 contacts = Blueprint('contacts', __name__, template_folder='app/templates')
 
 
